@@ -36,7 +36,7 @@ export const DEFAULT_TICKS_PER_QUARTER = 220;
 export const DEFAULT_CHANNEL = 0;
 export const DRUM_CHANNEL = 9;
 export const NON_DRUM_CHANNELS : ReadonlyArray<number> =
-    [0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 14, 15];
+    [0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 14, 15];
 
 // Modded by Riley Stange for Toontrack Midi Inference
 export const DEFAULT_DRUM_PITCH_CLASSES: number[][] = [
@@ -56,8 +56,7 @@ export const DEFAULT_DRUM_PITCH_CLASSES: number[][] = [
     [30, 117], // Ride: Bell Tip
     [31, 101], // Cymbal 4: Bow Tip
     [32, 102], // Cymbal 4: Bell Shank
-    [34, 36], // Kick: Open
-    [35], // Kick: Hit
+    [35, 34, 36], // Kick: Hit
     [37], // Snare: Sidestick
     [38], // Snare: Center
     [39], // Snare: Closed Roll
